@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
   return (
-    <article className="flex w-[88%] flex-col gap-7">
-      <h2 className="text-main-grey text-[27px] font-bold leading-10">
+    <article className="mb-[42px] flex w-[88%] flex-col gap-7">
+      <h2 className="text-[27px] font-bold leading-10 text-main-grey">
         За събитието
       </h2>
       <p className="leading-[27px]">
