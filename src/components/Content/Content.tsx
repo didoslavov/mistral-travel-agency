@@ -3,6 +3,8 @@ import About from "./About";
 import Gallery from "./Gallery";
 import Promos from "./Promos";
 import Singers from "./Singers";
+import Hotels from "./Hotels";
+import Testimonials from "./Testimonials";
 
 function Content() {
   return (
@@ -11,6 +13,8 @@ function Content() {
       <Gallery />
       <Promos />
       <Singers />
+      <Hotels />
+      <Testimonials />
     </section>
   );
 }
