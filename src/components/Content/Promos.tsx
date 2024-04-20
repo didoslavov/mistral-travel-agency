@@ -2,7 +2,7 @@ import React from "react";
 
 function Promos() {
   return (
-    <article className="w-[93%]">
+    <article className="mb-14 w-[93%]">
       <h2 className="mb-6 text-lg font-bold leading-10 text-main-grey">
         Промо пакети
       </h2>
