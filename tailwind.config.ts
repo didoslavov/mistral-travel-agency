@@ -15,6 +15,10 @@ const config: Config = {
       },
       colors: {
         "main-grey": "#323232",
+        "main-red": {
+          DEFAULT: "#DD363D",
+          900: "#D92027",
+        },
       },
     },
   },
