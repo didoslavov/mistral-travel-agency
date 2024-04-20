@@ -7,7 +7,7 @@ import jayz from "/public/jayz.png";
 
 function Singers() {
   return (
-    <article>
+    <article className="mb-10">
       <h2 className="mb-2 text-lg font-bold leading-10">Изпълнители</h2>
       <div className="flex gap-4">
         <div className="flex flex-col items-center">
