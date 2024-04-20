@@ -8,7 +8,7 @@ import jayz from "/public/jayz.png";
 function Singers() {
   return (
     <article className="mb-10">
-      <h2 className="mb-2 text-lg font-bold leading-10">Изпълнители</h2>
+      <h3 className="mb-2 text-lg font-bold leading-10">Изпълнители</h3>
       <div className="flex gap-4">
         <div className="flex flex-col items-center">
           <Image src={fatjoe} alt="Снимка на Фет Джо" />

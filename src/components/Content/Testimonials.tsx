@@ -6,9 +6,9 @@ import user2 from "/public/user2.png";
 function Testimonials() {
   return (
     <article className="grid w-[90%] grid-cols-2 gap-x-4">
-      <h2 className="col-span-full col-start-1 mb-6 text-[27px] font-bold leading-10 text-main-grey">
+      <h3 className="col-span-full col-start-1 mb-6 text-[27px] font-bold leading-10 text-main-grey">
         Отзиви от клиенти
-      </h2>
+      </h3>
       <figure className="mb-12 flex flex-col gap-6">
         <div className="relative">
           <p className="bg-main-grey-200 before:clip-path before:bg-main-grey-200 rounded-2xl p-6 pb-8 text-sm leading-[25px] text-main-grey before:absolute before:-bottom-4 before:left-4 before:h-4 before:w-5">

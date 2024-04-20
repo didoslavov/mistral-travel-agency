@@ -3,9 +3,9 @@ import React from "react";
 function Promos() {
   return (
     <article className="mb-14 w-[93%]">
-      <h2 className="mb-6 text-lg font-bold leading-10 text-main-grey">
+      <h3 className="mb-6 text-lg font-bold leading-10 text-main-grey">
         Промо пакети
-      </h2>
+      </h3>
       <table className="flex flex-col">
         <thead className="mb-2 text-[13px] font-bold">
           <tr className="flex justify-between gap-4">

@@ -7,7 +7,7 @@ function Gallery() {
   return (
     <article className="mb-10 grid grid-cols-6">
       <div className="col-span-2 row-start-1 flex items-end">
-        <h2 className="mb-2 text-lg font-bold leading-10">Галерия</h2>
+        <h3 className="mb-2 text-lg font-bold leading-10">Галерия</h3>
       </div>
       <div className="col-span-full row-start-2 grid grid-cols-4 gap-4">
         <div className="col-start-1 col-end-3">

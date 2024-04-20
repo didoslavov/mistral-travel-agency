@@ -9,9 +9,9 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 function Hotels() {
   return (
     <article className="mb-16 w-[90%]">
-      <h2 className="mb-3 text-lg font-bold leading-10 text-main-grey">
+      <h3 className="mb-3 text-lg font-bold leading-10 text-main-grey">
         Хотели
-      </h2>
+      </h3>
       <div className="mb-8">
         <div className="mb-4 flex items-center gap-4">
           <Image

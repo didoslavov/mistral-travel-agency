@@ -3,9 +3,9 @@ import React from "react";
 function About() {
   return (
     <article className="mb-[42px] flex w-[88%] flex-col gap-7">
-      <h2 className="text-[27px] font-bold leading-10 text-main-grey">
+      <h3 className="text-[27px] font-bold leading-10 text-main-grey">
         За събитието
-      </h2>
+      </h3>
       <p className="leading-[27px]">
         Ако ви привлича Изтока и източната култура, със сигурност сте чували за
         Акаба. Курортното градче е разположено в северната част на Червено море,
