@@ -5,7 +5,7 @@ import secondImage from "/public/vacation2.png";
 
 function Gallery() {
   return (
-    <article className="grid grid-cols-6">
+    <article className="mb-10 grid grid-cols-6">
       <div className="col-span-2 row-start-1 flex items-end">
         <h2 className="mb-2 text-lg font-bold leading-10">Галерия</h2>
       </div>
