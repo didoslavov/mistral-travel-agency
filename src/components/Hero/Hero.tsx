@@ -3,7 +3,7 @@ import InfoCards from "./InfoCards";
 
 function Hero() {
   return (
-    <section className="row-start-2  flex w-screen flex-col items-center bg-[url(/hero-bg.png)] bg-cover bg-bottom text-[#FFFFFE]">
+    <section className="z-50  row-start-2 flex w-screen flex-col items-center bg-[url(/hero-bg.png)] bg-cover bg-bottom text-[#FFFFFE]">
       <h1 className="mb-[10px] mt-[90px] text-[47px] font-extrabold">
         Арабска приказка в Йордания
       </h1>
