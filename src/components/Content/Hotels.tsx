@@ -35,7 +35,7 @@ function Hotels() {
             WiFi достъп.
           </p>
         </div>
-        <div className="border-b border-b-[#DFDFDF] pb-7">
+        <div className="border-b-main-grey-300 border-b pb-7">
           <div className="relative flex gap-2 ">
             <FaAngleLeft className="absolute -left-6 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px]" />
             <Image src={hotel1} alt="Снимка на подредена маса за хранене" />
@@ -69,7 +69,7 @@ function Hotels() {
             WiFi достъп.
           </p>
         </div>
-        <div className="border-b border-b-[#DFDFDF] pb-7">
+        <div className="border-b-main-grey-300 border-b pb-7">
           <div className="relative flex gap-2 ">
             <FaAngleLeft className="absolute -left-6 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px]" />
             <Image src={hotel1} alt="Снимка на подредена маса за хранене" />
