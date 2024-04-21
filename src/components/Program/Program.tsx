@@ -7,7 +7,6 @@ function Program() {
       <h2 className="mb-12 text-[27px] font-bold leading-10 text-main-grey">
         Програма
       </h2>
-      {/* 1 */}
       <article className="mb-8 flex flex-col">
         <div className="flex gap-4">
           <Image src={calendar} alt="Икона" className="h-9 w-8" />
@@ -41,7 +40,6 @@ function Program() {
           <p className="text-sm leading-[25px]">Вечеря. Нощувка.</p>
         </div>
       </article>
-      {/* 2 */}
       <article className="mb-8 flex flex-col">
         <div className="flex gap-4">
           <Image src={calendar} alt="Икона" className="h-9 w-8" />
@@ -65,7 +63,6 @@ function Program() {
           <p>Вечеря. Нощувка.</p>
         </div>
       </article>
-      {/* 3 */}
       <article className="mb-8 flex flex-col">
         <div className="flex gap-4">
           <Image src={calendar} alt="Икона" className="h-9 w-8" />
@@ -86,7 +83,6 @@ function Program() {
           </p>
         </div>
       </article>
-      {/* 4 */}
       <article className="mb-8 flex flex-col">
         <div className="flex gap-4">
           <Image src={calendar} alt="Икона" className="h-9 w-8" />
@@ -114,7 +110,6 @@ function Program() {
           <p>Цена - 130 евро с включен обяд Вечеря. Нощувка.</p>
         </div>
       </article>
-      {/* 5 */}
       <article className="mb-20 flex flex-col">
         <div className="flex gap-4">
           <Image src={calendar} alt="Икона" className="h-9 w-8" />
