@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         "main-grey": {
           DEFAULT: "#323232",
+          700: "#8298AB",
           300: "#DFDFDF",
           200: "#F5F5F5",
           100: "#FAFAFA",
