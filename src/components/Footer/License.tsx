@@ -5,7 +5,7 @@ import shield from "/public/shield.png";
 
 function License() {
   return (
-    <article className="col-span-2 col-start-3 flex flex-col pb-6 ps-6">
+    <article className="col-span-2 col-start-3 flex flex-col pb-4 ps-6">
       <Image src={logo} alt="Лого на компанията" className="mb-12" />
       <div className="mb-6 flex gap-4">
         <Image
@@ -13,7 +13,7 @@ function License() {
           alt="Лого на България"
           className="h-[42px] w-14"
         />
-        <p className="w-[45%] text-xs font-extrabold">
+        <p className="w-[45%] text-xs font-extrabold leading-[15px]">
           Лиценз, удостоверение за регистрация № 05236
         </p>
       </div>
@@ -21,9 +21,9 @@ function License() {
         <Image
           src={shield}
           alt="Лого на застрахователна компания"
-          className=""
+          className="h-[44px] w-[41px]"
         />
-        <p className="w-[38%] text-xs font-extrabold">
+        <p className="w-[50%] text-xs font-extrabold">
           Застраховка &quot;Отговорност на туроператора&quot;
         </p>
       </div>
