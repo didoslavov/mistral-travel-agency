@@ -2,6 +2,7 @@ import React from "react";
 import License from "./License";
 import Contacts from "./Contacts";
 import Nav from "./Nav";
+import Socials from "./Socials";
 
 function Footer() {
   return (
@@ -9,6 +10,7 @@ function Footer() {
       <License />
       <Contacts />
       <Nav />
+      <Socials />
     </footer>
   );
 }
