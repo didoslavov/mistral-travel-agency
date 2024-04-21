@@ -1,6 +1,7 @@
 import Content from "@/components/Content/Content";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
+import Offers from "@/components/Offers/Offers";
 import Program from "@/components/Program/Program";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Content />
       <Program />
+      <Offers />
     </main>
   );
 }
