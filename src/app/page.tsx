@@ -7,13 +7,15 @@ import Program from "@/components/Program/Program";
 
 export default function Home() {
   return (
-    <main className="grid grid-cols-12">
+    <>
       <Header />
-      <Hero />
-      <Content />
-      <Program />
-      <Offers />
-      <Partners />
-    </main>
+      <main className="grid grid-cols-12">
+        <Hero />
+        <Content />
+        <Program />
+        <Offers />
+        <Partners />
+      </main>
+    </>
   );
 }

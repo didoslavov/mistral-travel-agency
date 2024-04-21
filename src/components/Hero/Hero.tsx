@@ -3,7 +3,7 @@ import InfoCards from "./InfoCards";
 
 function Hero() {
   return (
-    <section className="z-50  row-start-2 flex w-screen flex-col items-center bg-[url(/hero-bg.png)] bg-cover bg-bottom text-[#FFFFFE]">
+    <section className="z-50 flex w-screen flex-col items-center bg-[url(/hero-bg.png)] bg-cover bg-bottom text-[#FFFFFE]">
       <h1 className="mb-[10px] mt-[90px] text-[47px] font-extrabold">
         Арабска приказка в Йордания
       </h1>
@@ -11,7 +11,7 @@ function Hero() {
         11-15 Март
       </p>
       <Countdown />
-      <button className="bg-main-red mb-3 rounded-[27.5px] px-7 py-[14px] font-bold leading-[25px]">
+      <button className="mb-3 rounded-[27.5px] bg-main-red px-7 py-[14px] font-bold leading-[25px]">
         Резервирайте сега
       </button>
       <p className="mb-16 text-sm text-[#FEFEFE] opacity-80">

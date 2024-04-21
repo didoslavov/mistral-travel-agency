@@ -3,7 +3,7 @@ import calendar from "/public/calendar.png";
 
 function Program() {
   return (
-    <div className="col-span-full col-start-7 row-start-3 ml-[112px] -translate-y-24">
+    <div className="col-span-full col-start-7 row-start-2 ml-[112px] -translate-y-24">
       <aside className="sticky top-0 bg-main-grey-100 ps-16 pt-40">
         <h2 className="mb-12 text-[27px] font-bold leading-10 text-main-grey">
           Програма
