@@ -39,13 +39,13 @@ function Countdown() {
   }, [remainingTime]);
 
   return (
-    <div className="mb-10 flex items-center gap-x-[82px] text-[#FEFEFE]">
+    <div className="mb-10 flex items-center gap-8 text-[#FEFEFE] lg:gap-[82px]">
       {countdownUnits.map((c, i) => {
         return (
           <Fragment key={i}>
             <CountdownUnit value={c.value} label={c.label} />
             {i < countdownUnits.length - 1 && (
-              <span className="h-[50%] w-[4px] -translate-y-1 bg-[#FEFEFE]"></span>
+              <span className="h-[50%] w-[2px] -translate-y-1 bg-[#FEFEFE] md:h-full md:w-1"></span>
             )}
           </Fragment>
         );
