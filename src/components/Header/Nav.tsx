@@ -1,9 +1,8 @@
 import React from "react";
 import NavLink from "./NavLink";
+import { links } from "@/data/headerData";
 
 function Nav() {
-  const links = ["Почивки и екскурзии", "Хотели", "Блог", "За нас", "Контакти"];
-
   return (
     <div>
       <ul className="flex gap-12 text-[15px] font-bold leading-[25px]">
