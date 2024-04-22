@@ -1,5 +1,6 @@
 import Image from "next/image";
 import calendar from "/public/calendar.png";
+import Link from "next/link";
 
 function Program() {
   return (
@@ -16,7 +17,7 @@ function Program() {
               <p className="text-lg">София – Акаба</p>
             </div>
           </div>
-          <div className="border-main-grey-300 ml-4 w-[50%] border-l ps-8 pt-6">
+          <div className="ml-4 w-[50%] border-l border-main-grey-300 ps-8 pt-6">
             <p className="text-sm leading-[25px]">
               Среща на летище София, Терминал 2 в 14.30 часа Директен полет на
               Ryan air до Йордания-Акаба в 16.35 часа. Пристигане на летище Кинг
@@ -33,9 +34,9 @@ function Program() {
             </p>
             <p className="text-sm leading-[25px]">
               5*{" "}
-              <a href="#" className="font-bold text-[#0085FF] underline">
+              <Link href="#" className="font-bold text-[#0085FF] underline">
                 http://talabay.net/hotel/tala-bay-resort/
-              </a>{" "}
+              </Link>{" "}
               на база полупансион.
             </p>
             <p className="text-sm leading-[25px]">Вечеря. Нощувка.</p>
@@ -51,7 +52,7 @@ function Program() {
               </p>
             </div>
           </div>
-          <div className="border-main-grey-300 ml-4 border-l ps-8 pt-6 text-sm leading-[25px]">
+          <div className="ml-4 border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px]">
             <p className="w-[37%]">
               Закуска. Свободно време. По желание срещу доплащане - Екскурзия до
               Мъртво море - Мадаба - планината Небо.
@@ -72,7 +73,7 @@ function Program() {
               <p className="text-lg">Акаба – Вади Рум – Акаба</p>
             </div>
           </div>
-          <div className="border-main-grey-300 ml-4 w-[50%] border-l ps-8 pt-6 text-sm leading-[25px]">
+          <div className="ml-4 w-[50%] border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px]">
             <p className="">Закуска. Свободно време.</p>
             <p className="">
               По желание срещу доплащане - Екскурзия до пустинята Вади Рум. С
@@ -92,7 +93,7 @@ function Program() {
               <p className="text-lg">Акаба – Петра – Акаба</p>
             </div>
           </div>
-          <div className="border-main-grey-300 ml-4 w-[52%] border-l ps-8 pt-6 text-sm leading-[25px]">
+          <div className="ml-4 w-[52%] border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px]">
             <p>Закуска</p>
             <p>По желание срещу доплащане - Екскурзия до Петра.</p>
             <p>
