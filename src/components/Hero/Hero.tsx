@@ -1,5 +1,5 @@
-import Countdown from "./Countdown";
-import InfoCards from "./InfoCards";
+import Countdown from "./Countdown/Countdown";
+import InfoCards from "./InfoCards/InfoCards";
 
 function Hero() {
   return (
@@ -11,7 +11,7 @@ function Hero() {
         11-15 Март
       </p>
       <Countdown />
-      <button className="mb-3 rounded-[27.5px] bg-main-red px-7 py-[14px] font-bold leading-[25px]">
+      <button className="mb-3 rounded-[27.5px] bg-main-red px-7 py-[14px] font-bold leading-[25px] transition-all duration-300 hover:bg-main-red-900">
         Резервирайте сега
       </button>
       <p className="mb-16 text-sm text-[#FEFEFE] opacity-80">
