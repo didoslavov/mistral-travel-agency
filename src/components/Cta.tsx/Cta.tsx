@@ -1,3 +1,5 @@
+import CtaForm from "./CtaForm";
+
 function Cta() {
   return (
     <section className="col-span-full grid grid-cols-12 border-b bg-main-grey py-11 text-white">
@@ -6,20 +8,7 @@ function Cta() {
           Отстъпки и специални предложения налични само на имейл
         </p>
         <div className="flex-1 ps-4">
-          <form className="mb-2 flex">
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Въведете вашия имейл"
-              className="placeholder:text-main-grey-700 flex-1 p-2 pl-4 placeholder:text-[13px] placeholder:leading-5"
-            />
-            <input
-              type="submit"
-              value="Абонирай се"
-              className="bg-main-red-900 ps-10 text-[17px] font-semibold leading-[40px] tracking-tight text-[#F5F9FC]"
-            />
-          </form>
+          <CtaForm />
           <p className="text-[17px] leading-[25px]">
             Всеки месец ще получаваш първи най-добрите ни оферти
           </p>
