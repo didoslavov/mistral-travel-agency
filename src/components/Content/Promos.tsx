@@ -2,17 +2,17 @@ import React from "react";
 
 function Promos() {
   return (
-    <article className="mb-14 w-[93%]">
+    <article className="mb-14">
       <h3 className="mb-6 text-lg font-bold leading-10 text-main-grey">
         Промо пакети
       </h3>
       <table className="flex flex-col">
         <thead className="mb-2 text-[13px] font-bold">
           <tr className="flex justify-between gap-4">
-            <th className="bg-main-grey-200  flex-[60%] px-4 py-2 text-start">
+            <th className="flex-[60%]  bg-main-grey-200 px-4 py-2 text-start">
               <span className="opacity-[30%]">Настаняване</span>
             </th>
-            <th className="bg-main-grey-200 max-w-[80%]  flex-1 px-4 py-2 text-start">
+            <th className="max-w-[80%] flex-1  bg-main-grey-200 px-4 py-2 text-start">
               <span className="opacity-[30%]">Цена</span>
             </th>
           </tr>
