@@ -1,4 +1,4 @@
-export const links = [
+export const headerLinks = [
   "Почивки и екскурзии",
   "Хотели",
   "Блог",
