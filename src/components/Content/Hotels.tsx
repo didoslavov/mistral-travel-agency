@@ -42,7 +42,7 @@ function Hotels() {
             <Image src={hotel2} alt="Снимка на баня в хотелска стая" />
             <Image src={hotel3} alt="Снимка на спалня в хотелса стая" />
             <Image src={hotel4} alt="Снимка на блок маса в ресторант" />
-            <FaAngleRight className="absolute -right-5 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer" />
+            <FaAngleRight className="absolute -right-12  top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer" />
           </div>
         </div>
       </div>
