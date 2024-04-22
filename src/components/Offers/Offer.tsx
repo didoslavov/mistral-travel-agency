@@ -6,7 +6,13 @@ import pin from "/public/pin.png";
 function Offer({ imgSrc }: { imgSrc: StaticImageData }) {
   return (
     <figure>
-      <Image src={imgSrc} alt="Снимка на оферта за почивка" />
+      <div className="overflow-hidden">
+        <Image
+          src={imgSrc}
+          alt="Снимка на оферта за почивка"
+          className="w-full transform transition-transform duration-300 ease-in-out hover:scale-105"
+        />
+      </div>
       <div className="bg-white p-4 pb-6">
         <h4 className="mb-4 text-[17px] font-bold leading-[21px] text-main-grey">
           Ски в Алпите в курорта Иглс, Австрия хотел Bon Alpina 3*
