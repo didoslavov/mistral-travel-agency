@@ -1,5 +1,5 @@
-import React from "react";
-import Logos from "./Logos";
+import { logosData } from "@/data/partnersData";
+import Logo from "./Logo";
 
 function Partners() {
   return (
@@ -12,7 +12,11 @@ function Partners() {
           Our customers accomplish amazing things every day. They work to find
           cures to cancer, travel to space.
         </p>
-        <Logos />
+        <div className="col-start-1 col-end-11 grid grid-cols-5 grid-rows-2 gap-y-12">
+          {logosData.map((l, i) => (
+            <Logo key={i} logo={l} />
+          ))}
+        </div>
       </div>
     </section>
   );
