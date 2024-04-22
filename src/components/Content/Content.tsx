@@ -5,17 +5,23 @@ import Promos from "./Promos";
 import Singers from "./Singers/Singers";
 import Hotels from "./Hotels";
 import Testimonials from "./Testimonials";
+import Program from "./Program/Program";
 
 function Content() {
   return (
-    <section className="col-span-6 col-start-3 row-start-2 w-[78%] -translate-y-24 ps-14 pt-40">
-      <About />
-      <Gallery />
-      <Promos />
-      <Singers />
-      <Hotels />
-      <Testimonials />
-    </section>
+    <div className="col-span-full grid grid-cols-12">
+      <section className="col-start-2 col-end-8 ml-32  pr-2 pt-24">
+        <div className="w-[85%] pl-16">
+          <About />
+          <Gallery />
+          <Promos />
+          <Singers />
+          <Hotels />
+          <Testimonials />
+        </div>
+      </section>
+      <Program />
+    </div>
   );
 }
 
