@@ -1,8 +1,8 @@
 import React from "react";
-import About from "./About";
+import About from "./About/About";
 import Gallery from "./Gallery";
 import Promos from "./Promos";
-import Singers from "./Singers";
+import Singers from "./Singers/Singers";
 import Hotels from "./Hotels";
 import Testimonials from "./Testimonials";
 
