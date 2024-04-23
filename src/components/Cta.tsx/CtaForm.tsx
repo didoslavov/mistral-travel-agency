@@ -60,7 +60,10 @@ function CtaForm() {
           closeNotification={closeNotification}
         />
       )}
-      <form className="mb-2 flex" onSubmit={handleSubmit}>
+      <form
+        className="mb-2 flex flex-col gap-2 md:flex-row md:gap-0"
+        onSubmit={handleSubmit}
+      >
         <input
           type="text"
           name="email"
@@ -73,7 +76,7 @@ function CtaForm() {
         <input
           type="submit"
           value="Абонирай се"
-          className="bg-main-red-900 ps-10 text-[17px] font-semibold leading-[40px] tracking-tight text-[#F5F9FC] decoration-neutral-300 transition-all hover:cursor-pointer hover:bg-main-red"
+          className="bg-main-red-900 text-[17px] font-semibold leading-[40px] tracking-tight text-[#F5F9FC] decoration-neutral-300 transition-all hover:cursor-pointer hover:bg-main-red 2xl:ps-10"
         />
       </form>
     </>
