@@ -5,7 +5,7 @@ import Statement from "./Statement";
 
 function About() {
   return (
-    <article className="mb-[42px] flex w-[95%] flex-col gap-6">
+    <article className="mb-6 flex flex-col gap-3  md:mb-[42px] md:w-[95%] md:gap-6">
       <Subheading>За събитието</Subheading>
       {aboutData.map((s, i) => (
         <Statement key={i}>{s}</Statement>
