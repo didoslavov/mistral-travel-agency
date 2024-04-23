@@ -5,13 +5,13 @@ import user2 from "/public/user2.png";
 
 function Testimonials() {
   return (
-    <article className="grid w-[90%] grid-cols-2 gap-x-4">
-      <h3 className="col-span-full col-start-1 mb-6 text-[27px] font-bold leading-10 text-main-grey">
+    <article className="grid grid-cols-2 gap-x-4 2xl:w-[90%]">
+      <h3 className="col-span-full col-start-1 mb-6 text-xl font-bold leading-10 text-main-grey lg:text-[27px]">
         Отзиви от клиенти
       </h3>
-      <figure className="mb-12 flex flex-col gap-6">
+      <figure className="col-span-full mb-12 flex flex-col gap-6 sm:col-span-1">
         <div className="relative">
-          <p className="bg-main-grey-200 before:clip-path before:bg-main-grey-200 rounded-2xl p-6 pb-8 text-sm leading-[25px] text-main-grey before:absolute before:-bottom-4 before:left-4 before:h-4 before:w-5">
+          <p className="before:clip-path rounded-2xl bg-main-grey-200 p-6 pb-8 text-sm leading-[25px] text-main-grey before:absolute before:-bottom-3 before:left-4 before:h-4 before:w-5 before:bg-main-grey-200">
             A visual guide could be a wireframe, creative composition,
             or information architecture. A device that enables collaboration
             will lessen the chance of work having to be completely redone.
@@ -31,9 +31,9 @@ function Testimonials() {
           </div>
         </div>
       </figure>
-      <figure className="mb-12 flex flex-col gap-6">
+      <figure className="col-span-full mb-12 flex flex-col gap-6 sm:col-span-1">
         <div className="relative">
-          <p className="bg-main-grey-200 before:clip-path before:bg-main-grey-200 rounded-2xl p-6 pb-[110px] text-sm leading-[25px] text-main-grey before:absolute before:-bottom-4 before:left-4 before:h-4 before:w-5">
+          <p className="before:clip-path rounded-2xl bg-main-grey-200 p-6 pb-[110px] text-sm leading-[25px] text-main-grey before:absolute before:-bottom-3 before:left-4 before:h-4 before:w-5 before:bg-main-grey-200">
             A visual guide could be a wireframe, creative composition,
             or information architecture.
           </p>
@@ -52,9 +52,9 @@ function Testimonials() {
           </div>
         </div>
       </figure>
-      <figure className="flex flex-col gap-6">
+      <figure className="col-span-full mb-12 flex flex-col gap-6 sm:col-span-1 lg:mb-0">
         <div className="relative">
-          <p className="bg-main-grey-200 before:clip-path before:bg-main-grey-200 rounded-2xl p-6 pb-8 text-sm leading-[25px] text-main-grey before:absolute before:-bottom-4 before:left-4 before:h-4 before:w-5">
+          <p className="before:clip-path rounded-2xl bg-main-grey-200 p-6 pb-8 text-sm leading-[25px] text-main-grey before:absolute before:-bottom-3 before:left-4 before:h-4 before:w-5 before:bg-main-grey-200">
             A visual guide could be a wireframe, creative composition,
             or information architecture. A device that enables collaboration
             will lessen the chance of work having to be completely redone.
@@ -75,9 +75,9 @@ function Testimonials() {
           </div>
         </div>
       </figure>
-      <figure className="flex flex-col gap-6">
+      <figure className="col-span-full flex flex-col gap-6 sm:col-span-1">
         <div className="relative">
-          <p className="bg-main-grey-200 before:clip-path before:bg-main-grey-200 rounded-2xl p-6 pb-[110px] text-sm leading-[25px] text-main-grey before:absolute before:-bottom-4 before:left-4 before:h-4 before:w-5">
+          <p className="before:clip-path rounded-2xl bg-main-grey-200 p-6 pb-[110px] text-sm leading-[25px] text-main-grey before:absolute before:-bottom-3 before:left-4 before:h-4 before:w-5 before:bg-main-grey-200">
             A visual guide could be a wireframe, creative composition,
             or information architecture.
           </p>
