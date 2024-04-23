@@ -5,7 +5,7 @@ import shield from "/public/shield.png";
 
 function License() {
   return (
-    <article className="col-span-2 col-start-3 flex flex-col pb-4 ps-6">
+    <article className="col-span-full col-start-3 flex flex-col md:col-span-4 md:col-start-2 lg:col-start-3 xl:col-span-2 xl:col-start-2 xl:pb-4 xl:ps-6 2xl:col-start-3">
       <Image src={logo} alt="Лого на компанията" className="mb-12" />
       <div className="mb-6 flex gap-4">
         <Image
