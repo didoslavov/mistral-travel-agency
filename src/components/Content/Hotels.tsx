@@ -8,7 +8,7 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 
 function Hotels() {
   return (
-    <article className="mb-16 w-[90%]">
+    <article className="mb-6 lg:mb-16 2xl:w-[90%]">
       <h3 className="mb-3 text-lg font-bold leading-10 text-main-grey">
         Хотели
       </h3>
@@ -36,13 +36,29 @@ function Hotels() {
           </p>
         </div>
         <div className="border-b border-b-main-grey-300 pb-7">
-          <div className="relative flex gap-2 ">
+          <div className="relative flex flex-wrap gap-2 xl:flex-nowrap">
             <FaAngleLeft className="absolute -left-6 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer" />
-            <Image src={hotel1} alt="Снимка на подредена маса за хранене" />
-            <Image src={hotel2} alt="Снимка на баня в хотелска стая" />
-            <Image src={hotel3} alt="Снимка на спалня в хотелса стая" />
-            <Image src={hotel4} alt="Снимка на блок маса в ресторант" />
-            <FaAngleRight className="absolute -right-12  top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer" />
+            <Image
+              src={hotel1}
+              className="flex-1"
+              alt="Снимка на подредена маса за хранене"
+            />
+            <Image
+              src={hotel2}
+              className="flex-1"
+              alt="Снимка на баня в хотелска стая"
+            />
+            <Image
+              src={hotel3}
+              className="flex-1"
+              alt="Снимка на спалня в хотелса стая"
+            />
+            <Image
+              src={hotel4}
+              className="flex-1"
+              alt="Снимка на блок маса в ресторант"
+            />
+            <FaAngleRight className="absolute -right-6 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer 2xl:-right-12" />
           </div>
         </div>
       </div>
@@ -70,13 +86,29 @@ function Hotels() {
           </p>
         </div>
         <div className="border-b border-b-main-grey-300 pb-7">
-          <div className="relative flex gap-2 ">
-            <FaAngleLeft className="absolute -left-6 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer" />
-            <Image src={hotel1} alt="Снимка на подредена маса за хранене" />
-            <Image src={hotel2} alt="Снимка на баня в хотелска стая" />
-            <Image src={hotel3} alt="Снимка на спалня в хотелса стая" />
-            <Image src={hotel4} alt="Снимка на блок маса в ресторант" />
-            <FaAngleRight className="absolute -right-5 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer" />
+          <div className="relative flex flex-wrap gap-2 lg:flex-nowrap ">
+            <FaAngleLeft className="absolute -left-6 top-[50%] hidden -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer md:block" />
+            <Image
+              src={hotel1}
+              className="flex-1"
+              alt="Снимка на подредена маса за хранене"
+            />
+            <Image
+              src={hotel2}
+              className="flex-1"
+              alt="Снимка на баня в хотелска стая"
+            />
+            <Image
+              src={hotel3}
+              className="flex-1"
+              alt="Снимка на спалня в хотелса стая"
+            />
+            <Image
+              src={hotel4}
+              className="flex-1"
+              alt="Снимка на блок маса в ресторант"
+            />
+            <FaAngleRight className="absolute -right-5 top-[50%] hidden -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer md:block" />
           </div>
         </div>
       </div>
