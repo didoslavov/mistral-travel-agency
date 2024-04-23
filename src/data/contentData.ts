@@ -15,3 +15,26 @@ export const singersData = [
   { img: cent, name: "50 cent" },
   { img: jayz, name: "Jay-Z" },
 ];
+
+export const promosData = [
+  {
+    offer: "1 човек в двойна стая",
+    price: 1149,
+  },
+  {
+    offer: "Трети възрастен",
+    price: 1100,
+  },
+  {
+    offer: "Единична стая",
+    price: 1548,
+  },
+  {
+    offer: "Дете 2 -5.99 г. в стая с 2-ма възрастни",
+    price: 560,
+  },
+  {
+    offer: "Дете 6 -11.99 г. в стая с 2-ма възрастни",
+    price: 728,
+  },
+];
