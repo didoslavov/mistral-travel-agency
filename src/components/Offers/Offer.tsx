@@ -5,7 +5,7 @@ import pin from "/public/pin.png";
 
 function Offer({ imgSrc }: { imgSrc: StaticImageData }) {
   return (
-    <figure>
+    <figure className="flex-1">
       <div className="overflow-hidden">
         <Image
           src={imgSrc}
