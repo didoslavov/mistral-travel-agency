@@ -4,7 +4,7 @@ import halkidiki from "/public/offer1.png";
 
 function Offers() {
   return (
-    <section className="col-span-full grid grid-cols-12 justify-items-center bg-main-grey-100 pb-28 pl-6 pt-6 md:justify-items-start md:pl-0 md:pt-16">
+    <section className="col-span-full grid grid-cols-12 justify-items-center bg-main-grey-100 p-6 md:justify-items-start md:pl-0 md:pt-16 lg:pb-28">
       <h2 className="col-span-full col-start-1 mb-6 text-[27px] font-bold leading-10 text-main-grey md:col-start-2 xl:col-start-3">
         Още предложения
       </h2>
