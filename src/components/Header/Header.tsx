@@ -5,10 +5,11 @@ import React, { useState } from "react";
 import Nav from "./Nav";
 import Image from "next/image";
 import logo from "/public/logo.png";
-import { IoCloseSharp } from "react-icons/io5";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMobileMenu = () => setIsOpen(!isOpen);
 
   return (
     <header className="grid grid-cols-12 px-4">
@@ -16,20 +17,12 @@ function Header() {
         <div className="lg:ps-12">
           <Image src={logo} alt="Лого" className="-translate-y-3" />
         </div>
-        <Nav isOpen={isOpen} />
-        {isOpen ? (
-          <IoCloseSharp
-            size={30}
-            className="z-50 block stroke-main-grey hover:cursor-pointer md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          />
-        ) : (
-          <FaBars
-            size={30}
-            className="block stroke-main-grey hover:cursor-pointer md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          />
-        )}
+        <Nav isOpen={isOpen} toggleMobileMenu={toggleMobileMenu} />
+        <FaBars
+          size={30}
+          className="block stroke-main-grey hover:cursor-pointer md:hidden"
+          onClick={toggleMobileMenu}
+        />
       </div>
     </header>
   );
