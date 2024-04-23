@@ -3,7 +3,7 @@ import React from "react";
 function Promos() {
   return (
     <article className="mb-14">
-      <h3 className="mb-6 text-lg font-bold leading-10 text-main-grey">
+      <h3 className="mb-4 text-lg font-bold leading-10 text-main-grey md:mb-6">
         Промо пакети
       </h3>
       <table className="flex flex-col">
@@ -17,7 +17,7 @@ function Promos() {
             </th>
           </tr>
         </thead>
-        <tbody className="mt-2 flex flex-col gap-3 pr-16 ps-4 text-sm">
+        <tbody className="mt-2 flex flex-col gap-3 pr-1 ps-4 text-xs sm:pr-14 sm:text-sm">
           <tr className="flex w-full justify-between">
             <td>1 човек в двойна стая</td>
             <td className="text-sm font-bold">1149 лв</td>
