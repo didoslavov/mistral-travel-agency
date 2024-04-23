@@ -4,9 +4,9 @@ import Link from "next/link";
 
 function Program() {
   return (
-    <div className="z-10 col-span-5 col-start-8 -ml-12 bg-main-grey-100">
-      <aside className="sticky top-0  ps-16 pt-24">
-        <h2 className="mb-12 text-[27px] font-bold leading-10 text-main-grey">
+    <div className="z-10 col-start-1 col-end-13 row-span-2 row-start-1 bg-main-grey-100 md:col-start-3 md:col-end-11 lg:col-span-5 lg:col-start-8 2xl:-ml-12">
+      <aside className="px-4 pb-6 pt-12 md:px-8 md:py-12 lg:sticky lg:top-0 lg:flex lg:flex-col 2xl:ps-16 2xl:pt-24">
+        <h2 className="mb-6 text-xl font-bold leading-10 text-main-grey md:text-[27px] 2xl:mb-12">
           Програма
         </h2>
         <article className="mb-8 flex flex-col">
@@ -17,7 +17,7 @@ function Program() {
               <p className="text-lg">София – Акаба</p>
             </div>
           </div>
-          <div className="ml-4 w-[50%] border-l border-main-grey-300 ps-8 pt-6">
+          <div className="ml-4 border-l border-main-grey-300 ps-8 pt-6 2xl:w-[50%]">
             <p className="text-sm leading-[25px]">
               Среща на летище София, Терминал 2 в 14.30 часа Директен полет на
               Ryan air до Йордания-Акаба в 16.35 часа. Пристигане на летище Кинг
@@ -47,17 +47,17 @@ function Program() {
             <Image src={calendar} alt="Икона" className="h-9 w-8" />
             <div className="font-bold">
               <p className="text-[15px] opacity-30">2 ден (12.03.20)</p>
-              <p className="w-[85%] text-lg">
+              <p className="text-lg 2xl:w-[85%]">
                 Акаба - Мъртво море - Мадаба - Небо - Акаба
               </p>
             </div>
           </div>
           <div className="ml-4 border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px]">
-            <p className="w-[37%]">
+            <p className="2xl:w-[37%]">
               Закуска. Свободно време. По желание срещу доплащане - Екскурзия до
               Мъртво море - Мадаба - планината Небо.
             </p>
-            <p className="w-[50%]">
+            <p className="2xl:w-[50%]">
               Целодневно пътуване до най-ниската точка на земното кълбо,
               разположена на 420 м под морското равнище – Мъртво море. Цена - 90
               евро с включен обяд.
@@ -73,7 +73,7 @@ function Program() {
               <p className="text-lg">Акаба – Вади Рум – Акаба</p>
             </div>
           </div>
-          <div className="ml-4 w-[50%] border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px]">
+          <div className="ml-4 border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px] 2xl:w-[50%]">
             <p className="">Закуска. Свободно време.</p>
             <p className="">
               По желание срещу доплащане - Екскурзия до пустинята Вади Рум. С
@@ -93,7 +93,7 @@ function Program() {
               <p className="text-lg">Акаба – Петра – Акаба</p>
             </div>
           </div>
-          <div className="ml-4 w-[52%] border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px]">
+          <div className="ml-4 border-l border-main-grey-300 ps-8 pt-6 text-sm leading-[25px] 2xl:w-[52%]">
             <p>Закуска</p>
             <p>По желание срещу доплащане - Екскурзия до Петра.</p>
             <p>
@@ -113,7 +113,7 @@ function Program() {
             <p>Цена - 130 евро с включен обяд Вечеря. Нощувка.</p>
           </div>
         </article>
-        <article className="mb-20 flex flex-col">
+        <article className="flex flex-col">
           <div className="flex gap-4">
             <Image src={calendar} alt="Икона" className="h-9 w-8" />
             <div className="font-bold">
@@ -121,7 +121,7 @@ function Program() {
               <p className="text-lg">Акаба – София</p>
             </div>
           </div>
-          <div className="ml-4 w-[52%] ps-8 pt-6 text-sm leading-[25px]">
+          <div className="ml-4 ps-8 pt-6 text-sm leading-[25px] 2xl:w-[52%]">
             <p className="mb-6">
               Закуска. Свободно време. Късно освобождаване на стаите.
             </p>
