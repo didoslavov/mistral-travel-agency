@@ -87,7 +87,7 @@ function Hotels() {
         </div>
         <div className="border-b border-b-main-grey-300 pb-7">
           <div className="relative flex flex-wrap gap-2 lg:flex-nowrap ">
-            <FaAngleLeft className="absolute -left-6 top-[50%] hidden -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer md:block" />
+            <FaAngleLeft className="absolute -left-6 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer" />
             <Image
               src={hotel1}
               className="flex-1"
@@ -108,7 +108,7 @@ function Hotels() {
               className="flex-1"
               alt="Снимка на блок маса в ресторант"
             />
-            <FaAngleRight className="absolute -right-5 top-[50%] hidden -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer md:block" />
+            <FaAngleRight className="absolute -right-6 top-[50%] -translate-y-[50%] text-lg font-light leading-[25px] hover:cursor-pointer 2xl:-right-12" />
           </div>
         </div>
       </div>
